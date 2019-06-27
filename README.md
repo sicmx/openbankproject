@@ -1,9 +1,9 @@
 # Requirements
-OpenShift 3.11 (Tested and validated)
-OpenShift 4.x (Untested) 
-Python 3.x 
-pip3 
-obp-cli
+- OpenShift 3.11 (Tested and validated)
+- OpenShift 4.x (Untested) 
+- Python 3.x 
+- pip3 
+- obp-cli
 
 # Setup
 ## Serverside
