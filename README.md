@@ -1,3 +1,21 @@
+# Requirements
+OpenShift 3.11 (Tested and validated)
+OpenShift 4.x (Untested) 
+Python 3.x 
+pip3 
+obp-cli
+
+# Setup
+## Serverside
+Provision your OpenShift environment
+
+## Client Side
+Follow instructions here (https://github.com/OpenBankProject/OBP-CLI)
+
+or
+
+`pip3 install --user obp-python`
+
 # Create new project (optional)
 ```
 oc new-project demo
