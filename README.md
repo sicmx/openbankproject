@@ -187,3 +187,7 @@ obp getbanks
 
 ```
 
+## Cleanup 
+```
+rm -rf obp_user_id.txt patch-deployment.yaml consumerKey.txt
+```
