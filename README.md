@@ -144,8 +144,8 @@ cat consumerKey.txt
 obp init
 Please enter your API_HOST:  [http://obp-frontend-demo.apps.openbank-redhat.rhmi.io/]: http://obp-frontend-demo.apps.openbank-redhat.rhmi.io/
 Please enter your username:  [demo]: demo
-Please enter your password: : 
-Repeat for confirmation: 
+Please enter your password: : Treedom#112
+Repeat for confirmation: Treedom#112
 ... generating direct login token
 Please enter your OBP_CONSUMER_KEY:  [inwpg5vajtt4am2b12zt5pi1zrqgmwtryefcicnz]: inwpg5vajtt4am2b12zt5pi1zrqgmwtryefcicnz
 Init complete
