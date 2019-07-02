@@ -67,19 +67,6 @@ oc scale deployment obp-deployment --replicas=0
 oc scale deployment obp-deployment --replicas=1 
 ```
 
-# Create a route to Open Bank Project frontend:
-Create a http url to navigate to the Open Bank Project frontend:
-```
-oc create -f https://raw.githubusercontent.com/chrisjsimpson/obp-kubernetes/master/openshift/route.yaml
-```
-Get the route by:
-```
-oc get routes
-NAME           HOST/PORT                                        PATH      SERVICES         PORT      TERMINATION   WILDCARD
-obp-frontend   obp-frontend-test.apps.openbank-redhat.rhmi.io             obpapi-service   <all>                   None
-```
-Follow the URL from the output shown, you can now browse to the Open Bank Project hosted on Openshift.
-
 # Inject bootstrap user
 The bootstrap user is a tempory account which has enough privileges to seed the Open Bank Project with some dummy data. 
 There is a `bootstrap` pod to do most of the work for you. 
@@ -139,6 +126,20 @@ View your consumer key:
 ```
 cat consumerKey.txt
 ```
+
+# Create a route to Open Bank Project frontend:
+Create a http url to navigate to the Open Bank Project frontend:
+```
+oc create -f https://raw.githubusercontent.com/chrisjsimpson/obp-kubernetes/master/openshift/route.yaml
+```
+Get the route by:
+```
+oc get routes
+NAME           HOST/PORT                                        PATH      SERVICES         PORT      TERMINATION   WILDCARD
+obp-frontend   obp-frontend-test.apps.openbank-redhat.rhmi.io             obpapi-service   <all>                   None
+```
+Follow the URL from the output shown, you can now browse to the Open Bank Project hosted on Openshift.
+
 # Use obp cli to authenticate against the api 
 ```
 obp init
