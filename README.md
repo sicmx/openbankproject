@@ -1,6 +1,6 @@
 # Requirements
 - OpenShift 3.11 (Tested and validated)
-- OpenShift 4.x (Untested) 
+- OpenShift 4.x (Tested and Validated) 
 - Python 3.x 
 - pip3 
 - obp-cli
