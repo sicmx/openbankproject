@@ -22,7 +22,7 @@ oc new-project demo
 ```
 # Import the deployment template:
 ```
-oc create -f https://raw.githubusercontent.com/chrisjsimpson/obp-kubernetes/master/openshift/obpapi_openshift.yaml
+oc create -f https://raw.githubusercontent.com/sicmx/obp-kubernetes/master/openshift/obpapi_openshift.yaml
 ```
 # Deploy the template:
 ```
