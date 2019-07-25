@@ -73,7 +73,7 @@ There is a `bootstrap` pod to do most of the work for you.
 
 ## Deploy the bootstap pod:
 ```
-oc create -f https://raw.githubusercontent.com/chrisjsimpson/obp-boostrap-user/master/bootstrap.yaml
+oc create -f https://raw.githubusercontent.com/sicmx/obp-boostrap-user/master/bootstrap.yaml
 deployment.apps/bootstrap-deployment created
 ```
 
@@ -130,7 +130,7 @@ cat consumerKey.txt
 # Create a route to Open Bank Project frontend:
 Create a http url to navigate to the Open Bank Project frontend:
 ```
-oc create -f https://raw.githubusercontent.com/chrisjsimpson/obp-kubernetes/master/openshift/route.yaml
+oc create -f https://raw.githubusercontent.com/sicmx/obp-kubernetes/master/openshift/route.yaml
 ```
 Get the route by:
 ```
